@@ -1,0 +1,7 @@
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+.claude-dev-helper/
+memory/
+.browser-pilot/
+.DS_Store
