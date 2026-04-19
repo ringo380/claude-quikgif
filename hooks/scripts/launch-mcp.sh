@@ -6,6 +6,14 @@
 
 set -u
 
+# CLAUDE_PLUGIN_ROOT is normally set by Claude Code when invoking plugin
+# scripts. If it's missing (manual invocation, alternate MCP host, etc.),
+# infer it from this script's own location so the bundled shim still
+# resolves. Falling back to /dev/null keeps `set -u` happy if even that
+# lookup fails.
+: "${CLAUDE_PLUGIN_ROOT:=$(cd "$(dirname "$0")/../.." 2>/dev/null && pwd)}"
+: "${CLAUDE_PLUGIN_ROOT:=/dev/null}"
+
 USER_SHIM="$HOME/.local/share/quikgif/mcp-shim.sh"
 BUNDLED_SHIM="${CLAUDE_PLUGIN_ROOT}/hooks/scripts/mcp-shim.sh"
 

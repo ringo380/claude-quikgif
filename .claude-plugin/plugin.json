@@ -1,6 +1,6 @@
 {
   "name": "claude-quikgif",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "QuikGIF MCP integration for Claude Code — bundles the QuikGIF MCP server, surfaces CLI updates on session start, and exposes lifecycle slash commands (status, install, update, register).",
   "author": {
     "name": "Ryan Robson"
