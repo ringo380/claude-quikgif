@@ -1,5 +1,6 @@
 ---
-description: Update the QuikGIF CLI to the latest version (downloads and replaces the binary atomically; refuses on Homebrew installs).
+name: update
+description: Update the QuikGIF CLI to the latest version. Use when the user asks to update QuikGIF, when a newer version is available, or after a session-start notice mentions a new release.
 allowed-tools: ["Bash"]
 ---
 

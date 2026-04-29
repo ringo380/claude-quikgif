@@ -1,5 +1,6 @@
 ---
-description: Install the QuikGIF CLI for the first time (or repair a broken install) by running the canonical curl installer.
+name: install
+description: Install the QuikGIF CLI for the first time or repair a broken install. Use when the user asks to install QuikGIF, when quikgif is not found on PATH, or when the binary produces signature errors.
 allowed-tools: ["Bash"]
 ---
 

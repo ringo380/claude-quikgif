@@ -1,5 +1,6 @@
 ---
-description: Run `quikgif mcp-install` to (re)register the QuikGIF MCP shim with this AI host. Use after a fresh CLI install or to refresh stale shim entries.
+name: install-mcp
+description: Register the QuikGIF MCP shim with this AI host and other AI clients. Use after a fresh CLI install, to refresh stale shim entries, or when the user asks to set up the QuikGIF MCP.
 allowed-tools: ["Bash"]
 ---
 

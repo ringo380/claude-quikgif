@@ -1,5 +1,6 @@
 ---
-description: Show the QuikGIF CLI version, license tier, app installation status, and MCP registration state.
+name: status
+description: Show the QuikGIF CLI version, license tier, app installation status, and MCP registration state. Use when the user asks about their QuikGIF setup or what version is installed.
 allowed-tools: ["Bash"]
 ---
 
