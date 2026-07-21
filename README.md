@@ -17,7 +17,7 @@ A [Claude Code](https://claude.com/product/claude-code) plugin that wires up the
 ## Install
 
 ```bash
-claude plugin marketplace add ringo380/robworks-claude-code-plugins
+claude plugin marketplace add robworks-code/robworks-claude-code-plugins
 claude plugin install claude-quikgif@robworks-claude-code-plugins
 ```
 
@@ -64,7 +64,7 @@ This removes the plugin's MCP entry from Claude Code. It does NOT touch the Quik
 - QuikGIF homepage: https://quikgif.com
 - QuikGIF CLI source: https://github.com/ringo380/quikgif
 - Plugin source: https://github.com/ringo380/claude-quikgif
-- Marketplace: https://github.com/ringo380/robworks-claude-code-plugins
+- Marketplace: https://github.com/robworks-code/robworks-claude-code-plugins
 
 ## License
 
